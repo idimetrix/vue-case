@@ -91,7 +91,7 @@ export default {
   name: "App",
   data() {
     return {
-      text: "_test Test test TEST_!?"
+      text: "I LOVE vue-case"
     };
   },
   methods: {}
