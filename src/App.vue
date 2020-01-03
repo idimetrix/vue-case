@@ -80,7 +80,7 @@
       </tr>
       <tr>
         <td>truncate</td>
-        <td>{{ text | truncate }}</td>
+        <td>{{ text | truncate(10) }}</td>
       </tr>
     </table>
   </div>
