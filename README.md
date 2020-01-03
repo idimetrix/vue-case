@@ -1,4 +1,4 @@
-# vue-case [![Build Status](https://travis-ci.org/freearhey/vue-case.svg?branch=master)](https://travis-ci.org/freearhey/vue-case)
+# vue-case [![Build Status](https://travis-ci.org/idimetrix/vue-case.svg?branch=master)](https://travis-ci.org/idimetrix/vue-case)
 
 A collection of Vue.js case filters
 
