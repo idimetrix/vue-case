@@ -25,30 +25,30 @@ const methods = {
   $1_sentence_$2: textCase.sentenceCase,
   $1_no_$2: textCase.noCase,
   $1_isLower_$2: textCase.isLowerCase,
-  $1_isUpper_$2: textCase.isUpperCase
+  $1_isUpper_$2: textCase.isUpperCase,
 };
 
 const additionals = {
-  truncate
+  truncate,
 };
 
 const VueCase = {
-  install: function(Vue, options = {}) {
+  install: function (Vue, options = {}) {
     const { prefix = "", postfix = "" } = {
       prefix: "",
       postfix: "Case",
-      ...options
+      ...options,
     };
 
-    Object.keys(methods).map(key => {
+    Object.keys(methods).map((key) => {
       Vue.filter(
         textCase.camelCase(key.replace("$1", prefix).replace("$2", postfix)),
         methods[key]
       );
     });
 
-    Object.keys(additionals).map(key => Vue.filter(key, additionals[key]));
-  }
+    Object.keys(additionals).map((key) => Vue.filter(key, additionals[key]));
+  },
 };
 
 export default VueCase;

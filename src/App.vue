@@ -91,10 +91,10 @@ export default {
   name: "App",
   data() {
     return {
-      text: "I LOVE vue-case"
+      text: "I LOVE vue-case",
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
