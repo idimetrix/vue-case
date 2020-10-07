@@ -1,7 +1,7 @@
 {
   "name": "vue-case",
   "description": "A collection of Vue.js case filters",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": {
     "name": "Dmitry Selikhov",
     "email": "selikhov.dmitrey@gmail.com",
