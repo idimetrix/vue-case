@@ -1,7 +1,7 @@
 {
   "name": "vue-case",
   "description": "A collection of Vue 3 case transformation utilities",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Dmitry Selikhov",
     "email": "selikhov.dmitrey@gmail.com",
