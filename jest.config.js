@@ -22,10 +22,12 @@ module.exports = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
-  collectCoverage: false,
+  collectCoverage: true,
   collectCoverageFrom: [
     'src/**/*.{js,ts,vue}',
     '!src/main.ts',
+    '!src/App.vue',
+    '!src/shims-vue.d.ts',
     '!**/node_modules/**',
   ],
 };
